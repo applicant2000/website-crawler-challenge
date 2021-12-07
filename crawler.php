@@ -178,14 +178,14 @@ if( !$formSuccess ) {
 // Encapsulates the information gathered during a single page visit/crawl
 
 class PageInfo {
-    public readonly string $url;
-    public readonly string $title;
-    public readonly array $words;
-    public readonly array $images;
-    public readonly array $internalLinks;
-    public readonly array $externalLinks;
-    public readonly float $loadTime;
-    public readonly string $statusCode;
+    public string $url;
+    public string $title;
+    public array $words;
+    public array $images;
+    public array $internalLinks;
+    public array $externalLinks;
+    public float $loadTime;
+    public string $statusCode;
 
     public function __construct(
         string $url,
