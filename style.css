@@ -1,0 +1,49 @@
+html {
+  font-family: Calibri, Arial, sans-serif;
+}
+table, th, td {
+  border: solid 1px #eee;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 0.3em;
+  vertical-align: top;
+}
+th {
+  text-align: left;
+}
+td.numeric {
+  text-align: right;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.1em;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.hide-content {
+  display: none;
+}
+table#pages-crawled th,
+table#pages-crawled td {
+  white-space: nowrap;
+}
+table#pages-crawled p.words {
+  white-space: normal;
+}
+input[type=text] {
+  width: 30em;
+}
+#expectedCount {
+  background-color: #eee;
+}
