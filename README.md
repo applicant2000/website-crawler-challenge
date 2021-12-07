@@ -6,5 +6,5 @@ The app is implemented in PHP.
 
 ## Requirements:
 
-* PHP 8.1
+* PHP 7.4
 * curl extension enabled
