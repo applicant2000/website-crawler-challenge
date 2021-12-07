@@ -644,7 +644,7 @@ $(document).ready(function() {
 </head>
 <body>
 
-<h1>Page Crawler - AgencyAnalytics Backend Challenge - Colin McInnes</h1>
+<h1>Page Crawler</h1>
 
 <h2>Aggregate Crawl Stats</h2>
 <table>
