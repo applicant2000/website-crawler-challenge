@@ -65,15 +65,15 @@ $(document).ready(function() {
 <table>
     <tr>
         <td>Starting page URL</td>
-        <td><input type="text" name="startPage" value="https://agencyanalytics.com" /></td>
+        <td><input type="text" name="startPage" value="" /></td>
     </tr>
     <tr>
         <td>Maximum breadth</td>
-        <td><input type="text" id="maxBreadth" name="maxBreadth" value="4" /></td>
+        <td><input type="text" id="maxBreadth" name="" value="4" /></td>
     </tr>
     <tr>
         <td>Maximum depth</td>
-        <td><input type="text" id="maxDepth" name="maxDepth" value="2" /></td>
+        <td><input type="text" id="maxDepth" name="" value="2" /></td>
     </tr>
     <tr>
         <td>Expected page count</td>
